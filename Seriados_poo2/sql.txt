@@ -1,0 +1,11 @@
+create database seriados;
+
+create table episodios(
+	nome varchar(64),
+	assistido boolean,
+	temporada bigint,
+	ano bigint,
+	nota bigint
+);
+
+INSERT INTO episodios (nome, assistido, temporada, ano, nota) VALUES ('Got', true, 8, 2010, 8);
